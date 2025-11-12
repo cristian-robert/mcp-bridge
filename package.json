@@ -43,6 +43,14 @@
     "ui-components"
   ],
   "author": "roobyrm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cristian-robert/mcp-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cristian-robert/mcp-bridge/issues"
+  },
+  "homepage": "https://github.com/cristian-robert/mcp-bridge#readme",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4",
