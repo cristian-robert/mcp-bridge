@@ -1,0 +1,63 @@
+# Source files (only ship compiled dist/)
+src/
+tests/
+*.test.ts
+*.spec.ts
+
+# Config files
+tsconfig.json
+jest.config.js
+.eslintrc.*
+.prettierrc.*
+
+# Documentation for development
+CLAUDE.md
+PROJECT_SUMMARY.md
+TOOL_NAME_FIXES.md
+
+# Environment and local files
+.env
+.env.*
+.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# Cache and metrics
+.cache/
+.mcp-bridge-cache/
+metrics/
+*.metrics.json
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Build artifacts we don't want
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Examples (if you want to keep them, remove this line)
+examples/
+
+# Scripts (if they're only for development)
+scripts/
